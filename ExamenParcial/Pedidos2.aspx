@@ -24,8 +24,8 @@
                 <asp:Button runat="server" ID="btnActualizar4" Text="Actualizar" OnClick="btnActualizar_Click"/>
             </p>
             <p>
-                <asp:TextBox runat="server" ID="txtBuscar4"></asp:TextBox>
-                <asp:Button runat="server" ID="btnBuscar4" Text="Buscar" OnClick="btnBuscar_Click" />
+                <asp:TextBox runat="server" ID="txtBuscar"></asp:TextBox>
+                <asp:Button runat="server" ID="btnBuscar" Text="Buscar" OnClick="btnBuscar_Click" />
             </p>
             <p>
                 <asp:GridView runat="server" id="gvPedidos" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="5" ForeColor="Black" GridLines="Horizontal" OnSelectedIndexChanged="Unnamed1_SelectedIndexChanged" Width="264px">
@@ -41,5 +41,7 @@
             </p>
         </div>
     </form>
+    <p>
+        &nbsp;</p>
 </body>
 </html>

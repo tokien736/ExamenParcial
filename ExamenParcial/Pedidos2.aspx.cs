@@ -34,6 +34,12 @@ namespace ExamenParcial
                 CargarDatos();
             }
         }
+
+        protected void Unnamed1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         /*actualisa tabla Pedidos*/
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
