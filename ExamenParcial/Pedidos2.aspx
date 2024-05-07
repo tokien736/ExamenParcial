@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <!--tablas de estudiante-->
         <div>
-            <p>Mantenimineto de la tabla Pedidos</p>
+            <p>Tabla Pedidos</p>
             <p>IDPedido: <asp:TextBox runat="server" ID="txtIDPedido"></asp:TextBox></p>
             <p>IDUsuario: <asp:TextBox runat="server" ID="txtIDUsuario"></asp:TextBox></p>
             <p>FechaPedido: <asp:TextBox runat="server" ID="txtFechaPedido"></asp:TextBox></p>
